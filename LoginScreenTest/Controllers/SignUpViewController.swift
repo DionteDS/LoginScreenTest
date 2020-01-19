@@ -9,10 +9,16 @@
 import UIKit
 
 class SignUpViewController: UIViewController {
+    
+    @IBOutlet weak var btnFacebook: UIButton!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationItem.title = "Nice Kicks"
 
+        btnFacebook.designButton(borderWidth: 1, borderColor: .clear)
         
     }
 

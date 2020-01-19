@@ -16,6 +16,7 @@
 		42254B7923D4079E007E5F29 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42254B7823D4079E007E5F29 /* CustomButton.swift */; };
 		42254B7B23D4090F007E5F29 /* UIButton+Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42254B7A23D4090F007E5F29 /* UIButton+Design.swift */; };
 		42254B8023D40C8E007E5F29 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42254B7F23D40C8E007E5F29 /* SignUpViewController.swift */; };
+		42254B8223D41C2C007E5F29 /* UIView+Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42254B8123D41C2C007E5F29 /* UIView+Design.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		42254B7823D4079E007E5F29 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		42254B7A23D4090F007E5F29 /* UIButton+Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Design.swift"; sourceTree = "<group>"; };
 		42254B7F23D40C8E007E5F29 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		42254B8123D41C2C007E5F29 /* UIView+Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Design.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				42254B7A23D4090F007E5F29 /* UIButton+Design.swift */,
+				42254B8123D41C2C007E5F29 /* UIView+Design.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 				42254B8023D40C8E007E5F29 /* SignUpViewController.swift in Sources */,
 				42254B7923D4079E007E5F29 /* CustomButton.swift in Sources */,
 				42254B6923D40383007E5F29 /* ViewController.swift in Sources */,
+				42254B8223D41C2C007E5F29 /* UIView+Design.swift in Sources */,
 				42254B6523D40383007E5F29 /* AppDelegate.swift in Sources */,
 				42254B7B23D4090F007E5F29 /* UIButton+Design.swift in Sources */,
 				42254B6723D40383007E5F29 /* SceneDelegate.swift in Sources */,
