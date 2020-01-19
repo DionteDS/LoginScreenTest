@@ -13,6 +13,8 @@
 		42254B6C23D40383007E5F29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42254B6A23D40383007E5F29 /* Main.storyboard */; };
 		42254B6E23D40384007E5F29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42254B6D23D40384007E5F29 /* Assets.xcassets */; };
 		42254B7123D40384007E5F29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42254B6F23D40384007E5F29 /* LaunchScreen.storyboard */; };
+		42254B7923D4079E007E5F29 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42254B7823D4079E007E5F29 /* CustomButton.swift */; };
+		42254B7B23D4090F007E5F29 /* UIButton+Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42254B7A23D4090F007E5F29 /* UIButton+Design.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		42254B6D23D40384007E5F29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42254B7023D40384007E5F29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42254B7223D40384007E5F29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42254B7823D4079E007E5F29 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		42254B7A23D4090F007E5F29 /* UIButton+Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Design.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		42254B6323D40383007E5F29 /* LoginScreenTest */ = {
 			isa = PBXGroup;
 			children = (
+				42254B7D23D40AF1007E5F29 /* Custom Button */,
+				42254B7C23D40AE7007E5F29 /* Extension */,
 				42254B6423D40383007E5F29 /* AppDelegate.swift */,
 				42254B6623D40383007E5F29 /* SceneDelegate.swift */,
 				42254B6823D40383007E5F29 /* ViewController.swift */,
@@ -65,6 +71,22 @@
 				42254B7223D40384007E5F29 /* Info.plist */,
 			);
 			path = LoginScreenTest;
+			sourceTree = "<group>";
+		};
+		42254B7C23D40AE7007E5F29 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				42254B7A23D4090F007E5F29 /* UIButton+Design.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		42254B7D23D40AF1007E5F29 /* Custom Button */ = {
+			isa = PBXGroup;
+			children = (
+				42254B7823D4079E007E5F29 /* CustomButton.swift */,
+			);
+			path = "Custom Button";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42254B7923D4079E007E5F29 /* CustomButton.swift in Sources */,
 				42254B6923D40383007E5F29 /* ViewController.swift in Sources */,
 				42254B6523D40383007E5F29 /* AppDelegate.swift in Sources */,
+				42254B7B23D4090F007E5F29 /* UIButton+Design.swift in Sources */,
 				42254B6723D40383007E5F29 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
