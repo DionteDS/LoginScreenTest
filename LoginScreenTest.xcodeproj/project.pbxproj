@@ -15,6 +15,7 @@
 		42254B7123D40384007E5F29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42254B6F23D40384007E5F29 /* LaunchScreen.storyboard */; };
 		42254B7923D4079E007E5F29 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42254B7823D4079E007E5F29 /* CustomButton.swift */; };
 		42254B7B23D4090F007E5F29 /* UIButton+Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42254B7A23D4090F007E5F29 /* UIButton+Design.swift */; };
+		42254B8023D40C8E007E5F29 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42254B7F23D40C8E007E5F29 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		42254B7223D40384007E5F29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42254B7823D4079E007E5F29 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		42254B7A23D4090F007E5F29 /* UIButton+Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Design.swift"; sourceTree = "<group>"; };
+		42254B7F23D40C8E007E5F29 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		42254B6323D40383007E5F29 /* LoginScreenTest */ = {
 			isa = PBXGroup;
 			children = (
+				42254B7E23D40C78007E5F29 /* Controllers */,
 				42254B7D23D40AF1007E5F29 /* Custom Button */,
 				42254B7C23D40AE7007E5F29 /* Extension */,
 				42254B6423D40383007E5F29 /* AppDelegate.swift */,
@@ -87,6 +90,14 @@
 				42254B7823D4079E007E5F29 /* CustomButton.swift */,
 			);
 			path = "Custom Button";
+			sourceTree = "<group>";
+		};
+		42254B7E23D40C78007E5F29 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				42254B7F23D40C8E007E5F29 /* SignUpViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42254B8023D40C8E007E5F29 /* SignUpViewController.swift in Sources */,
 				42254B7923D4079E007E5F29 /* CustomButton.swift in Sources */,
 				42254B6923D40383007E5F29 /* ViewController.swift in Sources */,
 				42254B6523D40383007E5F29 /* AppDelegate.swift in Sources */,
